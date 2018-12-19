@@ -35,17 +35,17 @@ namespace ConsoleApp1
     }
     class triangle
     {
-        public static float AreaTri(float a, float b)
+        public static float AreaTri(float width, float height)
         {
-            return (float)(0.5 * a * b);
+            return (float)(0.5 * width * height);
         }
     }
 
     class Prism
     {
-        public static float AreaPri(float a, float b)
+        public static float AreaPri(float width, float height)
         {
-            return a * b;
+            return width * height;
         }
     }
 }
