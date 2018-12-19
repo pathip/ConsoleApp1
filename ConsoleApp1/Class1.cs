@@ -6,7 +6,7 @@ namespace Homework02
 {
     class pyramid
     {
-        public static float calpyra(float a, float b)
+        public static float AreaPyramid(float a, float b)
         {
             return (float)(0.3 * a * b);
         }
@@ -14,7 +14,7 @@ namespace Homework02
 
     class Diamond
     {
-        public static float caldia(float a, float b)
+        public static float AreaDiamond(float a, float b)
         {
             return (float)(0.5 * (a * b));
         }
@@ -22,7 +22,7 @@ namespace Homework02
 
     class square
     {
-        public static float calsqu(float a)
+        public static float AreaSquare(float a)
         {
             return a * a;
         }
