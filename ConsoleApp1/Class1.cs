@@ -6,25 +6,25 @@ namespace Homework02
 {
     class pyramid
     {
-        public static float AreaPyramid(float width, float height)
+        public static IEnumerable<float> AreaPyramid(float width, float height)
         {
-            return (float)(0.3 * width * height);
+            yield return (float)(0.3 * width * height);
         }
     }
 
     class Diamond
     {
-        public static float AreaDiamond(float width, float height)
+        public static IEnumerable<float> AreaDiamond(float width, float height)
         {
-            return (float)(0.5 * (width * height));
+            yield return (float)(0.5 * (width * height));
         }
     }
 
     class square
     {
-        public static float AreaSquare(float width)
+        public static IEnumerable<float> AreaSquare(float width)
         {
-            return width * width;
+            yield return width * width;
         }
     }
 }
